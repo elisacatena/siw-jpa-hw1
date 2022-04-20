@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
 public class CorsiMain {
 
 	public static void main(String[] args) {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("products-unit");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("corsi-unit");
 		EntityManager em = emf.createEntityManager();
 
 		em.close();
